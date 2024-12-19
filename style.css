@@ -1,0 +1,86 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    background-color: #6c6c6c;
+}
+.todo {
+    display: flex;
+    justify-content: center;
+}
+.todo__items {
+    margin-top: 150px;
+    background-color: #fff;
+    width: 50rem;
+    min-height: 31.25rem;
+    overflow: hidden, auto;
+    border-radius: 20px;
+    padding-bottom: 1.1875rem;
+}
+.todo__container {
+    padding-left: 3.125rem;
+    padding-top: 3.125rem;
+}
+.todo__list__tittle  {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 40px;
+    font-weight: bold;
+}
+.add {
+    display: flex;
+}
+.todo__input {
+    outline: none;
+    margin-top: 1.25rem;
+    width: 25rem;
+    height: 3.125rem;
+    border-radius: 30px;
+    border: none;
+    background-color: lightgrey;
+    padding-left: 30px;
+    padding-right: 70px;
+    font-size: 30px;
+    color: black;
+}
+.add__button {
+    cursor: pointer;
+    margin-top: 1.25rem;
+    border: none;
+    background-color: #FA8072;
+    border-radius: 1.875rem;
+    width: 150px;
+    height: 3.125rem;
+    color: white;
+    font-size: .9375rem;
+    transform: translateX(-40%);
+}
+ul {
+    list-style-type: none;
+    margin-top: 1.25rem;
+
+}
+li {
+    justify-content: space-between;
+    display: flex;
+}
+.checkbox__on {
+    text-decoration: line-through;
+}
+.check__text {
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+
+}
+.check__lable {
+    display: flex;
+    gap: 10px;
+
+}
+.close {
+    cursor: pointer;
+}
